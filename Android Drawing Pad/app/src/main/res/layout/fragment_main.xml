@@ -1,0 +1,7 @@
+<com.example.dgyou.androiddrawingpad.DoodleView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:showIn="@layout/activity_main"
+    tools:context=".MainActivityFragment"
+    android:id="@+id/doodleView">
+
+</com.example.dgyou.androiddrawingpad.DoodleView>

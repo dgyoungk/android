@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Values Converter</string>
+    <string name="action_settings">Settings</string>
+    <string name="calc_button_label">Calculate</string>
+    <string name="ft_to_in_label">Feet to Inches</string>
+    <string name="km_to_mile_label">Km to Miles</string>
+    <string name="lbs_to_kgs_label">Lbs to Kgs</string>
+    <string name="ft_label">Feet</string>
+    <string name="in_label">Inches</string>
+    <string name="lbs_label">Pounds</string>
+    <string name="kgs_label">Kgs</string>
+    <string name="km_label">Kms</string>
+    <string name="mile_label">Miles</string>
+    <string name="last_saved_value">Last Saved Value</string>
+    <string name="save_button">Save</string>
+    <string name="inches_label">Inches</string>
+    <string name="key_kms">kms</string>
+    <string name="key_miles">miles</string>
+    <string name="key_feet">feet</string>
+    <string name="key_inches">inches</string>
+    <string name="key_pounds">pounds</string>
+    <string name="key_kilos">kilos</string>
+    <string name="lbs_saved_value">%1$d Lbs = %2$.2f</string>
+</resources>

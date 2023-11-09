@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="region">Region</string>
+    <string name="topic">Topic</string>
+    <string name="region_button_label">Show regional news</string>
+    <string name="topic_button_label">Show topic news</string>
+    <string name="api_key">6c9dc9339d6a4363810208500a01c7bb</string>
+    <string name="api_url">http://newsapi.org/v2/top-headlines?</string>
+    <string name="connect_error">Unable to connect to newsapi.org</string>
+    <string name="news_api_country">country=</string>
+    <string name="news_api_category">category=</string>
+    <string name="news_api_key">apiKey=</string>
+
+    <string-array name="news_categories">
+        <item>Business</item>
+        <item>Entertainment</item>
+        <item>General</item>
+        <item>Health</item>
+        <item>Science</item>
+        <item>Sports</item>
+        <item>Technology</item>
+    </string-array>
+
+    <string-array name="news_countries">
+        <item>AE</item>
+        <item>AR</item>
+        <item>AT</item>
+        <item>AU</item>
+        <item>BE</item>
+        <item>BG</item>
+        <item>BR</item>
+        <item>CA</item>
+        <item>CH</item>
+        <item>CN</item>
+        <item>CO</item>
+        <item>CU</item>
+        <item>CZ</item>
+        <item>DE</item>
+        <item>EG</item>
+        <item>FR</item>
+        <item>GB</item>
+        <item>GR</item>
+        <item>HK</item>
+        <item>HU</item>
+        <item>ID</item>
+        <item>IE</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>IT</item>
+        <item>JP</item>
+        <item>KR</item>
+        <item>LT</item>
+        <item>LV</item>
+        <item>MA</item>
+        <item>MX</item>
+        <item>MY</item>
+        <item>NG</item>
+        <item>NL</item>
+        <item>NO</item>
+        <item>NZ</item>
+        <item>PH</item>
+        <item>PL</item>
+        <item>PT</item>
+        <item>RO</item>
+        <item>RS</item>
+        <item>RU</item>
+        <item>SA</item>
+        <item>SE</item>
+        <item>SG</item>
+        <item>SI</item>
+        <item>SK</item>
+        <item>TH</item>
+        <item>TR</item>
+        <item>TW</item>
+        <item>UA</item>
+        <item>US</item>
+        <item>VE</item>
+        <item>ZA</item>
+    </string-array>
+    <string name="read_error">Unable to read news data</string>
+    <string name="news_listing">News List</string>
+</resources>

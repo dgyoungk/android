@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.dgyou.valuesconverter.LbsToKgsActivity"
+    android:columnCount="2"
+    android:rowCount="3"
+    android:useDefaultMargins="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/lbs_label"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_vertical|left"
+        android:layout_column="0"
+        android:layout_row="0" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/seek_bar_height"
+        android:id="@+id/lbsSeekBar"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:max="1000"
+        android:progress="0"
+        android:layout_row="0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/kgsTextView"
+        android:layout_row="0"
+        android:layout_columnSpan="2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_button"
+        android:id="@+id/kgsSaveButton"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="2" />
+
+</GridLayout>

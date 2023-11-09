@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:rowCount="1"
+    android:columnCount="3"
+    android:useDefaultMargins="true">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/km_to_mile_label"
+        android:id="@+id/kmLabel"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_columnWeight="1"
+        android:textStyle="bold"
+        android:textSize="@dimen/converts_label" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/last_saved_value"
+        android:id="@+id/kmSavedValueLabel"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:textSize="@dimen/saved_value_label" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/kmSavedValue"
+        android:layout_column="0"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/calc_button_label"
+        android:id="@+id/kmCalcButton"
+        android:layout_column="0"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/ft_to_in_label"
+        android:id="@+id/ftLabel"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:layout_columnWeight="1"
+        android:textStyle="bold"
+        android:textSize="@dimen/converts_label" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/last_saved_value"
+        android:id="@+id/ftSavedValueLabel"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:textSize="@dimen/saved_value_label" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/ftSavedValue"
+        android:layout_column="1"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/calc_button_label"
+        android:id="@+id/ftCalcButton"
+        android:layout_column="1"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/lbs_to_kgs_label"
+        android:id="@+id/lbsLabel"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:layout_columnWeight="1"
+        android:textStyle="bold"
+        android:textSize="@dimen/converts_label" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/last_saved_value"
+        android:id="@+id/lbsSavedVaueLabel"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:textSize="@dimen/saved_value_label" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lbsSavedValue"
+        android:layout_column="2"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/calc_button_label"
+        android:id="@+id/lbsCalcButton"
+        android:layout_column="2"
+        android:layout_columnWeight="1" />
+</GridLayout>
